@@ -1,0 +1,23 @@
+typedef struct no *Arv;
+
+Arv cria_arvore(int elem);
+int insere(Arv A, Arv sa);
+int remove_folha(Arv *A, int elem);
+void libera_arvore(Arv *A);
+void exibe_arvore(Arv A);
+Arv busca(Arv A, int elem);
+void preorder(Arv A);
+void postorder(Arv A);
+int nro_folha(Arv A);
+int grau_no(Arv A);
+int max(int a, int b);
+int grau_arv(Arv A);
+int qtde_nos(Arv A, int grau);
+int altura_no_aux(Arv A);
+int altura_no(Arv A, int elem);
+int altura_arv(Arv A);
+void percorre_nivel(Arv A);
+void gera_notacao_aux(Arv A, char *S, int* n);
+int gera_notacao(Arv A, char *S);
+int carrega_aux(Arv* A,char* S,int* n);
+int carrega_arvore(Arv* A,char* S);

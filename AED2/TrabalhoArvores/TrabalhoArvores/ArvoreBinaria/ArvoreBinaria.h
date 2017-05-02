@@ -1,0 +1,33 @@
+struct no{
+  char info;
+  struct no*sae;
+  struct no*sad;
+};
+typedef struct no *Arv;
+
+Arv cria_arvore(char elem, Arv esq, Arv dir);
+Arv cria_vazia();
+int remove_folha(Arv *A, char elem);
+void libera_arvore(Arv *A);
+void exibe_arvore(Arv A);
+int arvore_vazia(Arv A);
+Arv busca(Arv a, char elem);
+void preorder(Arv A);
+void postorder(Arv A);
+void inorder(Arv A);
+void percorre_nivel(Arv A);
+void gera_notacao_aux(Arv A, char *S, int* n);
+int gera_notacao(Arv A, char *S);
+int nro_folha(Arv A);
+int nro_derivacao(Arv A);
+int um_filho(Arv A);
+int cheia(Arv A);
+int nivel_no(Arv A, char elem);
+int anivel_no(Arv A, char elem);
+int valida(Arv A, Arv B);
+int iguais(Arv A, Arv B);
+int altura_arv(Arv A);
+int altura_no(Arv A, char elem);
+int altura_noaux(Arv A);
+int carrega_aux(Arv* A,char* S,int* n);
+int carrega_arvore(Arv* A,char* S);
