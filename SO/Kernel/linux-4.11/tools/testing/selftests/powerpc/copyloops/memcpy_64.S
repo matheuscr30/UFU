@@ -1,1 +1,1 @@
-../../../../../arch/powerpc/lib/memcpy_64.S
+/media/matheus/Documentos/Documentos Linux/UFU/SO/Kernel/linux-4.11/arch/powerpc/lib/memcpy_64.S

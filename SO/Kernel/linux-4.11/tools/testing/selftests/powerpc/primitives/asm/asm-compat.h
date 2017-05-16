@@ -1,1 +1,1 @@
-../.././../../../../arch/powerpc/include/asm/asm-compat.h
+/media/matheus/Documentos/Documentos Linux/UFU/SO/Kernel/linux-4.11/arch/powerpc/include/asm/asm-compat.h

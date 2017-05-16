@@ -1,1 +1,1 @@
-../../../../../../arch/powerpc/include/asm/ppc_asm.h
+/media/matheus/Documentos/Documentos Linux/UFU/SO/Kernel/linux-4.11/arch/powerpc/include/asm/ppc_asm.h

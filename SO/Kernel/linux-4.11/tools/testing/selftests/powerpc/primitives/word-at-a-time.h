@@ -1,1 +1,1 @@
-../../../../../arch/powerpc/include/asm/word-at-a-time.h
+/media/matheus/Documentos/Documentos Linux/UFU/SO/Kernel/linux-4.11/arch/powerpc/include/asm/word-at-a-time.h
