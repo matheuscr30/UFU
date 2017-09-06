@@ -16,24 +16,18 @@ void *acao(void *p)
 	//0 - comer
 	//1 - pensar
 	int *num = (int*)p;
+	int tempo;
 	
 	while(1)
 	{
-		int escolha = rand()%2;
-		
-		if(escolha == 0){
-			
-			printf("Filosofo %d esta comendo com os garfos %d e %d\n", (*num)+1, (*num)+1, (*num + 2)%5);
-			int tempo = rand()%3;
-			sleep(tempo);
-			printf("Filosofo %d parou de comer\n", (*num)+1);
-		}
-		else if(escolha == 1)
-		{
-			printf("Filosofo %d esta pensando\n", (*num)+1);
-			int tempo = rand()%3;
-			sleep(tempo);
-		}
+		printf("Filosofo %d esta comendo com os garfos %d e %d\n", (*num)+1, (*num)+1, (*num + 2)%5);
+		tempo = rand()%3;
+		sleep(tempo);
+		printf("Filosofo %d parou de comer\n", (*num)+1);
+
+		printf("Filosofo %d esta pensando\n", (*num)+1);
+		tempo = rand()%3;
+		sleep(tempo);
 	}
 	
 	pthread_exit(0);

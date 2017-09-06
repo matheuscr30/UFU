@@ -19,32 +19,25 @@ void *acao(void *p)
 	//0 - comer
 	//1 - pensar
 	int *num = (int*)p;
+	int tempo;
 	
 	while(1)
 	{
-		int escolha = rand()%2;
+		int j = *num;
+		sem_wait(&mutex[j]);
+		printf("Filosofo %d pegou o garfo %d\n", j, j);
+		sem_wait(&mutex[(j+1)%5]);
+		printf("Filosofo %d pegou o garfo %d\n", j, j+1);
+		tempo = rand()%3;
+		sleep(tempo);
+		printf("Filosofo %d parou de comer\n", j);
+			
+		sem_post(&mutex[j]);
+		sem_post(&mutex[(j+1)%5]);
 		
-		if(escolha == 0){
-			
-			int j = *num;
-			sem_wait(&mutex[j]);
-			printf("Filosofo %d pegou o garfo %d\n", j, j);
-			sleep(1);
-			sem_wait(&mutex[(j+1)%5]);
-			printf("Filosofo %d pegou o garfo %d\n", j, j+1);
-			int tempo = rand()%3;
-			sleep(tempo);
-			printf("Filosofo %d parou de comer\n", j);
-			
-			sem_post(&mutex[j]);
-			sem_post(&mutex[(j+1)%5]);
-		}
-		else if(escolha == 1)
-		{
-			printf("Filosofo %d esta pensando\n", (*num));
-			int tempo = rand()%3;
-			sleep(tempo);
-		}
+		printf("Filosofo %d esta pensando\n", (*num));
+		tempo = rand()%3;
+		sleep(tempo);
 	}
 	
 	pthread_exit(0);

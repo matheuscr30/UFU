@@ -53,25 +53,19 @@ void *acao(void *p)
 	//0 - comer
 	//1 - pensar
 	int *num = (int*)p;
+	int tempo;
 	
 	while(1)
 	{
-		int escolha = rand()%2;
-		
-		if(escolha == 0){
-			take_forks(*num);
-			int tempo = rand()%3;
-			printf("Filosofo %d esta comendo\n", (*num));
-			sleep(tempo);
-			put_forks(*num);
-			
-		}
-		else if(escolha == 1)
-		{
-			printf("Filosofo %d esta pensando\n", (*num));
-			int tempo = rand()%3;
-			sleep(tempo);
-		}
+		take_forks(*num);
+		tempo = rand()%3;
+		printf("Filosofo %d esta comendo\n", (*num));
+		sleep(tempo);
+		put_forks(*num);
+	
+		printf("Filosofo %d esta pensando\n", (*num));
+		tempo = rand()%3;
+		sleep(tempo);
 	}
 	
 	pthread_exit(0);
