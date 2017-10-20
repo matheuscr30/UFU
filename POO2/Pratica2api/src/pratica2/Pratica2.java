@@ -5,7 +5,6 @@
  */
 package pratica2;
 
-import java.util.ArrayList;
 import pratica2.Inimigos.Inimigo1;
 import pratica2.Inimigos.Inimigo2;
 import pratica2.Inimigos.Inimigo3;
@@ -16,7 +15,7 @@ import pratica2.Personagens.Personagem1;
  * @author matheus
  */
 public class Pratica2 {
-    
+
     /**
      * @param args the command line arguments
      */
@@ -28,6 +27,6 @@ public class Pratica2 {
         Inimigo3 i3 = new Inimigo3(p1);
         
         p1.setCoord_x(2.45);
-        p1.setCoord_y(5.65);        
+        p1.setCoord_y(5.65);
     }
 }
