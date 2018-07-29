@@ -1,0 +1,124 @@
+#include <stdio.h>
+
+#define FILENAME  "sis1.dat"            /* input data file                */
+#define MINIMUM   20                    /* 's' inventory policy parameter */
+#define MAXIMUM   80                    /* 'S' inventory policy parameter */
+#define sqr(x)    ((x) * (x))
+
+#define ORDER_COST 8000
+#define SETUP_COST 1000
+#define HOLDING_COST 25
+#define SHORTAGE_CUST 700
+
+/* ======================== */
+   long GetDemand(FILE *fp)
+/* ======================== */
+{
+  long d;
+
+  fscanf(fp, "%ld\n", &d);
+  return (d);
+}
+
+/* ============== */
+   int main(void)
+/* ============== */
+{
+  FILE *fp;                                /* input data file         */
+  long index     = 0;                      /* time interval index     */
+  long inventory = MAXIMUM;                /* current inventory level */
+  long demand;                             /* amount of demand        */
+  long order;                              /* amount of order         */
+
+  struct {                                 /* sum of ...              */
+    double setup;                          /*   setup instances       */
+    double holding;                        /*   inventory held (+)    */
+    double shortage;                       /*   inventory short (-)   */
+    double order;                          /*   orders                */
+    double demand;                         /*   demands               */
+  } sum = { 0.0, 0.0, 0.0, 0.0, 0.0 };
+
+  fp = fopen(FILENAME, "r");
+  if (fp == NULL) {
+    fprintf(stderr, "Cannot open input file %s\n", FILENAME);
+    return (1);
+  }
+  /// ///////////////////////
+  int i;
+  FILE*fileSetup = fopen("setup_cost.txt","w");
+  FILE*fileHolding = fopen("holding_cost.txt","w");
+  FILE*fileShortage = fopen("shortage_cost.txt","w");
+  FILE*fileDependent = fopen("dependent_cost.txt","w");
+  for(i=1;i<=40;i++){
+        sum.demand=0;
+        sum.shortage=0;
+        sum.holding=0;
+        sum.setup=0;
+  /// ///////////////////////
+  while (!feof(fp)) {
+    index++;
+    if (inventory < MINIMUM) {             /* place an order          */
+      order         = MAXIMUM - inventory;
+
+      sum.setup++;
+      sum.order    += order;
+    }
+    else                                   /* no order                 */
+      order         = 0;
+    inventory      += order;               /* there is no delivery lag */
+
+
+    demand          = GetDemand(fp);
+    sum.demand     += demand;
+    if (inventory > demand){
+      sum.holding  += (inventory - 0.5 * demand);
+    }else {
+      sum.holding  += sqr(inventory) / (2.0 * demand);
+      sum.shortage += sqr(demand - inventory) / (2.0 * demand);
+
+    }
+    inventory      -= demand;
+
+  }
+  if (inventory < MAXIMUM) {               /* force the final inventory to */
+    order           = MAXIMUM - inventory; /* match the initial inventory  */
+    sum.setup++;
+    sum.order      += order;
+    inventory      += order;
+  }
+/*
+  printf("\nfor %ld time intervals ", index);
+  printf("with an average demand of %6.2f\n", sum.demand / index);
+  printf("and policy parameters (s, S) = (%d, %d)\n\n", MINIMUM, MAXIMUM);
+  printf("   average order ............ = %6.2f\n", sum.order / index);
+  printf("   setup frequency .......... = %6.2f\n", sum.setup / index);
+  printf("   average holding level .... = %6.2f\n", sum.holding / index);
+  printf("   average shortage level ... = %6.2f\n", sum.shortage / index);
+
+  /// //////////////////////////////////////////////////////////////////////////
+printf("\n\nResposta 1.3.2:\n\n");
+  printf("   average order cost per week.... = %6.2f\n", ORDER_COST* (sum.order / index));
+  printf("   average setup cost per week.... = %6.2f\n", SETUP_COST * (sum.setup / index));
+  printf("   average holding cost per week.... = %6.2f\n", HOLDING_COST * (sum.holding / index));
+  printf("   average shortage cost per week.... = %6.2f\n", SHORTAGE_CUST * (sum.shortage / index));
+*/
+
+  fprintf(fileSetup,"%6.2f\n", SETUP_COST * (sum.setup / index));
+  fprintf(fileHolding,"%6.2f\n", HOLDING_COST * (sum.holding / index));
+  fprintf(fileSortage,"%6.2f\n", SHORTAGE_CUST * (sum.shortage / index));
+  fprintf(fileDependent,"%6.2f\n",((SETUP_COST * (sum.setup / index)) +
+            (HOLDING_COST * (sum.holding / index)) +  (SHORTAGE_CUST * (sum.shortage / index))));
+  /// ///////////////////////////////////////////////////////////////////////////
+
+  /**
+  Letra A: Modificações no código.
+  Letra B: Sim, por caracteristicas de arredondamento ou truncamento da máquina,por exemplo.
+  Letra C:
+  */
+
+  }
+
+  fclose(fp);
+  return (0);
+}
+

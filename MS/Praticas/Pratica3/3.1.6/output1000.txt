@@ -1,0 +1,22 @@
+Using the seed: 1525748956
+15   dependentCost per week ... = 1757.99
+16   dependentCost per week ... = 1721.10
+17   dependentCost per week ... = 1697.46
+18   dependentCost per week ... = 1652.23
+19   dependentCost per week ... = 1616.17
+20   dependentCost per week ... = 1619.76
+21   dependentCost per week ... = 1618.90
+22   dependentCost per week ... = 1620.34
+23   dependentCost per week ... = 1622.83
+24   dependentCost per week ... = 1638.93
+25   dependentCost per week ... = 1622.33
+26   dependentCost per week ... = 1639.30
+27   dependentCost per week ... = 1643.74
+28   dependentCost per week ... = 1638.70
+29   dependentCost per week ... = 1641.24
+30   dependentCost per week ... = 1644.31
+31   dependentCost per week ... = 1672.77
+32   dependentCost per week ... = 1703.36
+33   dependentCost per week ... = 1694.97
+34   dependentCost per week ... = 1710.88
+35   dependentCost per week ... = 1738.13

@@ -1,0 +1,854 @@
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (0, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   2.85
+   average holding level .... = 2162719698760.98
+   average shortage level ... = 76954670.83
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 2850.00
+   total holding cost ....... = 54067992469024.57
+   total shortage cost ...... = 53868269582.34
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (1, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   2.86
+   average holding level .... = 2162719698761.71
+   average shortage level ... = 76954670.59
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 2860.00
+   total holding cost ....... = 54067992469042.70
+   total shortage cost ...... = 53868269410.87
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (2, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   2.87
+   average holding level .... = 2162719698762.24
+   average shortage level ... = 76954670.18
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 2870.00
+   total holding cost ....... = 54067992469056.09
+   total shortage cost ...... = 53868269127.90
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (3, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   2.88
+   average holding level .... = 2162719698762.71
+   average shortage level ... = 76954669.95
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 2880.00
+   total holding cost ....... = 54067992469067.66
+   total shortage cost ...... = 53868268961.69
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (4, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   2.89
+   average holding level .... = 2162719698763.28
+   average shortage level ... = 76954669.74
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 2890.00
+   total holding cost ....... = 54067992469082.08
+   total shortage cost ...... = 53868268819.56
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (5, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   2.90
+   average holding level .... = 2162719698763.66
+   average shortage level ... = 76954669.47
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 2900.00
+   total holding cost ....... = 54067992469091.51
+   total shortage cost ...... = 53868268628.40
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (6, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   2.91
+   average holding level .... = 2162719698764.38
+   average shortage level ... = 76954669.28
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 2910.00
+   total holding cost ....... = 54067992469109.54
+   total shortage cost ...... = 53868268496.27
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (7, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   2.92
+   average holding level .... = 2162719698906.92
+   average shortage level ... = 76954668.90
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 2920.00
+   total holding cost ....... = 54067992472673.04
+   total shortage cost ...... = 53868268230.30
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (8, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   2.92
+   average holding level .... = 2162719698906.97
+   average shortage level ... = 76954668.89
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 2920.00
+   total holding cost ....... = 54067992472674.32
+   total shortage cost ...... = 53868268224.27
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (9, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   2.93
+   average holding level .... = 2162719698907.49
+   average shortage level ... = 76954668.75
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 2930.00
+   total holding cost ....... = 54067992472687.20
+   total shortage cost ...... = 53868268122.78
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (10, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   2.93
+   average holding level .... = 2162719698765.70
+   average shortage level ... = 76954668.95
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 2930.00
+   total holding cost ....... = 54067992469142.46
+   total shortage cost ...... = 53868268263.32
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (11, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   2.94
+   average holding level .... = 2162719698766.25
+   average shortage level ... = 76954668.83
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 2940.00
+   total holding cost ....... = 54067992469156.16
+   total shortage cost ...... = 53868268177.88
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (12, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   2.94
+   average holding level .... = 2162719698766.25
+   average shortage level ... = 76954668.83
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 2940.00
+   total holding cost ....... = 54067992469156.16
+   total shortage cost ...... = 53868268177.88
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (13, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   2.95
+   average holding level .... = 2162719698766.87
+   average shortage level ... = 76954668.73
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 2950.00
+   total holding cost ....... = 54067992469171.84
+   total shortage cost ...... = 53868268112.92
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (14, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   2.97
+   average holding level .... = 2162719698767.59
+   average shortage level ... = 76954668.20
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 2970.00
+   total holding cost ....... = 54067992469189.78
+   total shortage cost ...... = 53868267740.12
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (15, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   2.97
+   average holding level .... = 2162719698767.59
+   average shortage level ... = 76954668.20
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 2970.00
+   total holding cost ....... = 54067992469189.78
+   total shortage cost ...... = 53868267740.12
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (16, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   2.97
+   average holding level .... = 2162719698767.51
+   average shortage level ... = 76954668.21
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 2970.00
+   total holding cost ....... = 54067992469187.68
+   total shortage cost ...... = 53868267744.32
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (17, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   2.97
+   average holding level .... = 2162719698767.41
+   average shortage level ... = 76954668.22
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 2970.00
+   total holding cost ....... = 54067992469185.35
+   total shortage cost ...... = 53868267756.04
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (18, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   2.98
+   average holding level .... = 2162719698768.17
+   average shortage level ... = 76954668.17
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 2980.00
+   total holding cost ....... = 54067992469204.32
+   total shortage cost ...... = 53868267720.39
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (19, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   2.98
+   average holding level .... = 2162719698768.17
+   average shortage level ... = 76954668.17
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 2980.00
+   total holding cost ....... = 54067992469204.32
+   total shortage cost ...... = 53868267720.39
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (20, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   2.98
+   average holding level .... = 2162719698768.17
+   average shortage level ... = 76954668.17
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 2980.00
+   total holding cost ....... = 54067992469204.32
+   total shortage cost ...... = 53868267720.39
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (21, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   2.98
+   average holding level .... = 2162719698768.17
+   average shortage level ... = 76954668.17
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 2980.00
+   total holding cost ....... = 54067992469204.32
+   total shortage cost ...... = 53868267720.39
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (22, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   2.98
+   average holding level .... = 2162719698768.17
+   average shortage level ... = 76954668.17
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 2980.00
+   total holding cost ....... = 54067992469204.32
+   total shortage cost ...... = 53868267720.39
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (23, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   2.99
+   average holding level .... = 2162719698768.51
+   average shortage level ... = 76954668.15
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 2990.00
+   total holding cost ....... = 54067992469212.70
+   total shortage cost ...... = 53868267702.90
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (24, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.00
+   average holding level .... = 2162719698768.82
+   average shortage level ... = 76954668.09
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3000.00
+   total holding cost ....... = 54067992469220.41
+   total shortage cost ...... = 53868267660.01
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (25, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.00
+   average holding level .... = 2162719698768.82
+   average shortage level ... = 76954668.09
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3000.00
+   total holding cost ....... = 54067992469220.41
+   total shortage cost ...... = 53868267660.01
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (26, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.01
+   average holding level .... = 2162719698769.52
+   average shortage level ... = 76954668.08
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3010.00
+   total holding cost ....... = 54067992469238.03
+   total shortage cost ...... = 53868267656.14
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (27, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.02
+   average holding level .... = 2162719698770.09
+   average shortage level ... = 76954668.08
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3020.00
+   total holding cost ....... = 54067992469252.16
+   total shortage cost ...... = 53868267652.85
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (28, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.06
+   average holding level .... = 2162719698913.60
+   average shortage level ... = 76954667.45
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3060.00
+   total holding cost ....... = 54067992472840.08
+   total shortage cost ...... = 53868267216.56
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (29, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.06
+   average holding level .... = 2162719698913.72
+   average shortage level ... = 76954667.45
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3060.00
+   total holding cost ....... = 54067992472843.12
+   total shortage cost ...... = 53868267217.49
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (30, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.08
+   average holding level .... = 2162719698914.62
+   average shortage level ... = 76954667.45
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3080.00
+   total holding cost ....... = 54067992472865.39
+   total shortage cost ...... = 53868267218.31
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (31, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.14
+   average holding level .... = 2162719698916.36
+   average shortage level ... = 76954667.45
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3140.00
+   total holding cost ....... = 54067992472909.04
+   total shortage cost ...... = 53868267215.44
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (32, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.21
+   average holding level .... = 2162719698918.38
+   average shortage level ... = 76954667.44
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3210.00
+   total holding cost ....... = 54067992472959.59
+   total shortage cost ...... = 53868267209.58
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (33, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.22
+   average holding level .... = 2162719698918.77
+   average shortage level ... = 76954667.44
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3220.00
+   total holding cost ....... = 54067992472969.34
+   total shortage cost ...... = 53868267209.58
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (34, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.25
+   average holding level .... = 2162719698919.60
+   average shortage level ... = 76954667.44
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3250.00
+   total holding cost ....... = 54067992472990.00
+   total shortage cost ...... = 53868267207.28
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (35, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.33
+   average holding level .... = 2162719698921.65
+   average shortage level ... = 76954667.43
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3330.00
+   total holding cost ....... = 54067992473041.30
+   total shortage cost ...... = 53868267201.84
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (36, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.37
+   average holding level .... = 2162719698922.65
+   average shortage level ... = 76954667.43
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3370.00
+   total holding cost ....... = 54067992473066.27
+   total shortage cost ...... = 53868267201.01
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (37, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.40
+   average holding level .... = 2162719698923.41
+   average shortage level ... = 76954667.43
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3400.00
+   total holding cost ....... = 54067992473085.27
+   total shortage cost ...... = 53868267201.01
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (38, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.42
+   average holding level .... = 2162719698923.87
+   average shortage level ... = 76954667.43
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3420.00
+   total holding cost ....... = 54067992473096.77
+   total shortage cost ...... = 53868267201.01
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (39, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.45
+   average holding level .... = 2162719698924.54
+   average shortage level ... = 76954667.43
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3450.00
+   total holding cost ....... = 54067992473113.52
+   total shortage cost ...... = 53868267201.01
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (40, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.47
+   average holding level .... = 2162719698924.96
+   average shortage level ... = 76954667.43
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3470.00
+   total holding cost ....... = 54067992473124.02
+   total shortage cost ...... = 53868267201.01
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (41, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.47
+   average holding level .... = 2162719698924.96
+   average shortage level ... = 76954667.43
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3470.00
+   total holding cost ....... = 54067992473124.02
+   total shortage cost ...... = 53868267201.01
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (42, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.48
+   average holding level .... = 2162719698925.15
+   average shortage level ... = 76954667.43
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3480.00
+   total holding cost ....... = 54067992473128.77
+   total shortage cost ...... = 53868267201.01
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (43, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.50
+   average holding level .... = 2162719698925.33
+   average shortage level ... = 76954667.25
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3500.00
+   total holding cost ....... = 54067992473133.27
+   total shortage cost ...... = 53868267075.01
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (44, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.51
+   average holding level .... = 2162719698925.50
+   average shortage level ... = 76954667.25
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3510.00
+   total holding cost ....... = 54067992473137.52
+   total shortage cost ...... = 53868267075.01
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (45, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.53
+   average holding level .... = 2162719698925.56
+   average shortage level ... = 76954666.99
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3530.00
+   total holding cost ....... = 54067992473138.97
+   total shortage cost ...... = 53868266891.46
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (46, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.53
+   average holding level .... = 2162719698925.56
+   average shortage level ... = 76954666.99
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3530.00
+   total holding cost ....... = 54067992473138.97
+   total shortage cost ...... = 53868266891.46
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (47, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.53
+   average holding level .... = 2162719698925.56
+   average shortage level ... = 76954666.99
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3530.00
+   total holding cost ....... = 54067992473138.97
+   total shortage cost ...... = 53868266891.46
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (48, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.53
+   average holding level .... = 2162719698925.56
+   average shortage level ... = 76954666.99
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3530.00
+   total holding cost ....... = 54067992473138.97
+   total shortage cost ...... = 53868266891.46
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (49, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.53
+   average holding level .... = 2162719698925.56
+   average shortage level ... = 76954666.99
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3530.00
+   total holding cost ....... = 54067992473138.97
+   total shortage cost ...... = 53868266891.46
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (50, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.53
+   average holding level .... = 2162719698925.56
+   average shortage level ... = 76954666.99
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3530.00
+   total holding cost ....... = 54067992473138.97
+   total shortage cost ...... = 53868266891.46
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (51, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.54
+   average holding level .... = 2162719698925.56
+   average shortage level ... = 76954666.89
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3540.00
+   total holding cost ....... = 54067992473138.97
+   total shortage cost ...... = 53868266821.46
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (52, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.55
+   average holding level .... = 2162719698925.56
+   average shortage level ... = 76954666.80
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3550.00
+   total holding cost ....... = 54067992473138.97
+   total shortage cost ...... = 53868266758.46
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (53, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.60
+   average holding level .... = 2162719698925.56
+   average shortage level ... = 76954666.40
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3600.00
+   total holding cost ....... = 54067992473138.97
+   total shortage cost ...... = 53868266478.46
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (54, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.60
+   average holding level .... = 2162719698925.56
+   average shortage level ... = 76954666.40
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3600.00
+   total holding cost ....... = 54067992473138.97
+   total shortage cost ...... = 53868266478.46
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (55, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.62
+   average holding level .... = 2162719698925.56
+   average shortage level ... = 76954666.28
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3620.00
+   total holding cost ....... = 54067992473138.97
+   total shortage cost ...... = 53868266394.46
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (56, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.64
+   average holding level .... = 2162719698925.56
+   average shortage level ... = 76954666.18
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3640.00
+   total holding cost ....... = 54067992473138.97
+   total shortage cost ...... = 53868266324.46
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (57, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.67
+   average holding level .... = 2162719698925.56
+   average shortage level ... = 76954666.06
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3670.00
+   total holding cost ....... = 54067992473138.97
+   total shortage cost ...... = 53868266240.46
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (58, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.69
+   average holding level .... = 2162719698926.37
+   average shortage level ... = 76954666.00
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3690.00
+   total holding cost ....... = 54067992473159.23
+   total shortage cost ...... = 53868266198.61
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (59, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.72
+   average holding level .... = 2162719698926.37
+   average shortage level ... = 76954665.94
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3720.00
+   total holding cost ....... = 54067992473159.24
+   total shortage cost ...... = 53868266157.01
+   total cost per week ...... = 851908779780780851200.00
+
+
+for 100 time intervals with an average demand of 106488590707365024.00
+and policy parameters (s, S) = (60, 60)
+
+   average order ............ = 106488590707365024.00
+   setup frequency .......... =   3.81
+   average holding level .... = 2162719698926.42
+   average shortage level ... = 76954665.86
+   total item cost .......... = 851908725658920157184.00
+   total setup cost ......... = 3810.00
+   total holding cost ....... = 54067992473160.49
+   total shortage cost ...... = 53868266101.02
+   total cost per week ...... = 851908779780780851200.00

@@ -1,0 +1,32 @@
+for c = 15
+Don't exist steady-state statistics because p >= 1
+
+for c = 16 and p = 0.9375
+E[Q] / average number in the queue  = 10.9511
+E[L] / average number in the node   = 25.9511
+E[D] / average delay in the queue   = 0.365038
+E[W] / average wait in the node     = 0.865038
+
+for c = 17 and p = 0.882353
+E[Q] / average number in the queue  = 3.90204
+E[L] / average number in the node   = 18.902
+E[D] / average delay in the queue   = 0.130068
+E[W] / average wait in the node     = 0.630068
+
+for c = 18 and p = 0.833333
+E[Q] / average number in the queue  = 1.80667
+E[L] / average number in the node   = 16.8067
+E[D] / average delay in the queue   = 0.0602224
+E[W] / average wait in the node     = 0.560222
+
+for c = 19 and p = 0.789474
+E[Q] / average number in the queue  = 0.915818
+E[L] / average number in the node   = 15.9158
+E[D] / average delay in the queue   = 0.0305273
+E[W] / average wait in the node     = 0.530527
+
+for c = 20 and p = 0.75
+E[Q] / average number in the queue  = 0.481288
+E[L] / average number in the node   = 15.4813
+E[D] / average delay in the queue   = 0.0160429
+E[W] / average wait in the node     = 0.516043
