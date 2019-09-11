@@ -1,0 +1,3 @@
+blockchain==1.4.4
+enum-compat==0.0.2
+future==0.17.1

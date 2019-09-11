@@ -1,0 +1,369 @@
+Round 0
+Hash Generated - k: 1 - Count: 3 - Time spent: 8.845329284667969e-05
+Hash Generated - k: 2 - Count: 1 - Time spent: 3.0040740966796875e-05
+Hash Generated - k: 3 - Count: 15 - Time spent: 0.000225067138671875
+Hash Generated - k: 4 - Count: 4 - Time spent: 8.034706115722656e-05
+Hash Generated - k: 5 - Count: 8 - Time spent: 0.00011038780212402344
+Hash Generated - k: 6 - Count: 10 - Time spent: 0.0001251697540283203
+Hash Generated - k: 7 - Count: 145 - Time spent: 0.0013933181762695312
+Hash Generated - k: 8 - Count: 102 - Time spent: 0.0009663105010986328
+Hash Generated - k: 9 - Count: 228 - Time spent: 0.0021877288818359375
+Hash Generated - k: 10 - Count: 901 - Time spent: 0.007835149765014648
+Hash Generated - k: 11 - Count: 1676 - Time spent: 0.01789569854736328
+Hash Generated - k: 12 - Count: 1339 - Time spent: 0.011221647262573242
+Hash Generated - k: 13 - Count: 3857 - Time spent: 0.03627443313598633
+Hash Generated - k: 14 - Count: 20858 - Time spent: 0.18078231811523438
+Hash Generated - k: 15 - Count: 7805 - Time spent: 0.07032251358032227
+Hash Generated - k: 16 - Count: 67001 - Time spent: 0.5697953701019287
+Hash Generated - k: 17 - Count: 65469 - Time spent: 0.5586199760437012
+Hash Generated - k: 18 - Count: 73205 - Time spent: 0.6259119510650635
+Hash Generated - k: 19 - Count: 60863 - Time spent: 0.5166079998016357
+Hash Generated - k: 20 - Count: 175792 - Time spent: 1.483485221862793
+Hash Generated - k: 21 - Count: 13483189 - Time spent: 113.50937962532043
+Hash Generated - k: 22 - Count: 9120128 - Time spent: 76.77535820007324
+Hash Generated - k: 23 - Count: 691837 - Time spent: 5.825987339019775
+Hash Generated - k: 24 - Count: 5744334 - Time spent: 48.77759671211243
+Hash Generated - k: 25 - Count: 3419318 - Time spent: 28.809393405914307
+
+Round 1
+Hash Generated - k: 1 - Count: 4 - Time spent: 5.91278076171875e-05
+Hash Generated - k: 2 - Count: 3 - Time spent: 4.887580871582031e-05
+Hash Generated - k: 3 - Count: 3 - Time spent: 5.9604644775390625e-05
+Hash Generated - k: 4 - Count: 1 - Time spent: 1.8835067749023438e-05
+Hash Generated - k: 5 - Count: 12 - Time spent: 0.00012445449829101562
+Hash Generated - k: 6 - Count: 25 - Time spent: 0.00024008750915527344
+Hash Generated - k: 7 - Count: 66 - Time spent: 0.0006144046783447266
+Hash Generated - k: 8 - Count: 424 - Time spent: 0.0035483837127685547
+Hash Generated - k: 9 - Count: 28 - Time spent: 0.0002682209014892578
+Hash Generated - k: 10 - Count: 677 - Time spent: 0.006127357482910156
+Hash Generated - k: 11 - Count: 6607 - Time spent: 0.059839487075805664
+Hash Generated - k: 12 - Count: 5119 - Time spent: 0.050301551818847656
+Hash Generated - k: 13 - Count: 4289 - Time spent: 0.040730953216552734
+Hash Generated - k: 14 - Count: 9829 - Time spent: 0.08723115921020508
+Hash Generated - k: 15 - Count: 20889 - Time spent: 0.18072271347045898
+Hash Generated - k: 16 - Count: 13860 - Time spent: 0.12351250648498535
+Hash Generated - k: 17 - Count: 489297 - Time spent: 4.127004146575928
+Hash Generated - k: 18 - Count: 241659 - Time spent: 2.190708637237549
+Hash Generated - k: 19 - Count: 74443 - Time spent: 0.6345536708831787
+Hash Generated - k: 20 - Count: 2072128 - Time spent: 17.43476414680481
+Hash Generated - k: 21 - Count: 3725579 - Time spent: 31.31965708732605
+Hash Generated - k: 22 - Count: 435670 - Time spent: 3.6947851181030273
+Hash Generated - k: 23 - Count: 5644217 - Time spent: 48.63824534416199
+Hash Generated - k: 24 - Count: 19054599 - Time spent: 161.51285076141357
+Hash Generated - k: 25 - Count: 11081690 - Time spent: 93.55738115310669
+
+Round 2
+Hash Generated - k: 1 - Count: 5 - Time spent: 9.489059448242188e-05
+Hash Generated - k: 2 - Count: 9 - Time spent: 0.00010633468627929688
+Hash Generated - k: 3 - Count: 13 - Time spent: 0.00013494491577148438
+Hash Generated - k: 4 - Count: 16 - Time spent: 0.00015997886657714844
+Hash Generated - k: 5 - Count: 71 - Time spent: 0.0006136894226074219
+Hash Generated - k: 6 - Count: 98 - Time spent: 0.0008342266082763672
+Hash Generated - k: 7 - Count: 27 - Time spent: 0.0002510547637939453
+Hash Generated - k: 8 - Count: 101 - Time spent: 0.0009160041809082031
+Hash Generated - k: 9 - Count: 623 - Time spent: 0.005337953567504883
+Hash Generated - k: 10 - Count: 371 - Time spent: 0.0033125877380371094
+Hash Generated - k: 11 - Count: 3287 - Time spent: 0.037130117416381836
+Hash Generated - k: 12 - Count: 489 - Time spent: 0.004210710525512695
+Hash Generated - k: 13 - Count: 7270 - Time spent: 0.06532144546508789
+Hash Generated - k: 14 - Count: 7378 - Time spent: 0.06855416297912598
+Hash Generated - k: 15 - Count: 15867 - Time spent: 0.13762140274047852
+Hash Generated - k: 16 - Count: 19890 - Time spent: 0.17199087142944336
+Hash Generated - k: 17 - Count: 103396 - Time spent: 0.8763422966003418
+Hash Generated - k: 18 - Count: 781321 - Time spent: 6.765058755874634
+Hash Generated - k: 19 - Count: 49605 - Time spent: 0.42562079429626465
+Hash Generated - k: 20 - Count: 1166708 - Time spent: 9.839017629623413
+Hash Generated - k: 21 - Count: 2245443 - Time spent: 18.959309101104736
+Hash Generated - k: 22 - Count: 12421477 - Time spent: 104.78586530685425
+Hash Generated - k: 23 - Count: 9105329 - Time spent: 76.95119953155518
+Hash Generated - k: 24 - Count: 4531940 - Time spent: 38.31860971450806
+Hash Generated - k: 25 - Count: 5228281 - Time spent: 44.22091341018677
+
+Round 3
+Hash Generated - k: 1 - Count: 1 - Time spent: 2.2172927856445312e-05
+Hash Generated - k: 2 - Count: 6 - Time spent: 0.00010347366333007812
+Hash Generated - k: 3 - Count: 4 - Time spent: 7.891654968261719e-05
+Hash Generated - k: 4 - Count: 16 - Time spent: 0.00017714500427246094
+Hash Generated - k: 5 - Count: 27 - Time spent: 0.000278472900390625
+Hash Generated - k: 6 - Count: 167 - Time spent: 0.0014145374298095703
+Hash Generated - k: 7 - Count: 149 - Time spent: 0.0012774467468261719
+Hash Generated - k: 8 - Count: 135 - Time spent: 0.0011653900146484375
+Hash Generated - k: 9 - Count: 346 - Time spent: 0.0029022693634033203
+Hash Generated - k: 10 - Count: 156 - Time spent: 0.0013859272003173828
+Hash Generated - k: 11 - Count: 4025 - Time spent: 0.04005718231201172
+Hash Generated - k: 12 - Count: 5591 - Time spent: 0.049480438232421875
+Hash Generated - k: 13 - Count: 3807 - Time spent: 0.03741765022277832
+Hash Generated - k: 14 - Count: 25886 - Time spent: 0.22188544273376465
+Hash Generated - k: 15 - Count: 5357 - Time spent: 0.05063772201538086
+Hash Generated - k: 16 - Count: 64239 - Time spent: 0.5475733280181885
+Hash Generated - k: 17 - Count: 75496 - Time spent: 0.6407499313354492
+Hash Generated - k: 18 - Count: 53931 - Time spent: 0.457686185836792
+Hash Generated - k: 19 - Count: 474766 - Time spent: 3.998319387435913
+Hash Generated - k: 20 - Count: 868802 - Time spent: 7.465536117553711
+Hash Generated - k: 21 - Count: 89503 - Time spent: 0.7586343288421631
+Hash Generated - k: 22 - Count: 6807301 - Time spent: 57.41186857223511
+Hash Generated - k: 23 - Count: 2972789 - Time spent: 24.99596667289734
+Hash Generated - k: 24 - Count: 2336042 - Time spent: 19.66761088371277
+Hash Generated - k: 25 - Count: 17138031 - Time spent: 144.76375150680542
+
+Round 4
+Hash Generated - k: 1 - Count: 1 - Time spent: 2.1457672119140625e-05
+Hash Generated - k: 2 - Count: 2 - Time spent: 5.0067901611328125e-05
+Hash Generated - k: 3 - Count: 6 - Time spent: 9.5367431640625e-05
+Hash Generated - k: 4 - Count: 11 - Time spent: 0.00016427040100097656
+Hash Generated - k: 5 - Count: 63 - Time spent: 0.0005631446838378906
+Hash Generated - k: 6 - Count: 112 - Time spent: 0.0009739398956298828
+Hash Generated - k: 7 - Count: 73 - Time spent: 0.0006487369537353516
+Hash Generated - k: 8 - Count: 359 - Time spent: 0.003038167953491211
+Hash Generated - k: 9 - Count: 685 - Time spent: 0.006360292434692383
+Hash Generated - k: 10 - Count: 60 - Time spent: 0.0010390281677246094
+Hash Generated - k: 11 - Count: 3837 - Time spent: 0.03821921348571777
+Hash Generated - k: 12 - Count: 2598 - Time spent: 0.026044845581054688
+Hash Generated - k: 13 - Count: 24655 - Time spent: 0.20980358123779297
+Hash Generated - k: 14 - Count: 13476 - Time spent: 0.12041306495666504
+Hash Generated - k: 15 - Count: 6357 - Time spent: 0.05971097946166992
+Hash Generated - k: 16 - Count: 72933 - Time spent: 0.6235504150390625
+Hash Generated - k: 17 - Count: 27215 - Time spent: 0.23643898963928223
+Hash Generated - k: 18 - Count: 248180 - Time spent: 2.089707374572754
+Hash Generated - k: 19 - Count: 790574 - Time spent: 6.668977975845337
+Hash Generated - k: 20 - Count: 25870 - Time spent: 0.2246263027191162
+Hash Generated - k: 21 - Count: 3331729 - Time spent: 28.082937717437744
+Hash Generated - k: 22 - Count: 2244351 - Time spent: 19.090839385986328
+Hash Generated - k: 23 - Count: 30946744 - Time spent: 261.0434982776642
+Hash Generated - k: 24 - Count: 4103423 - Time spent: 34.789554834365845
+Hash Generated - k: 25 - Count: 37046673 - Time spent: 322.346346616745
+
+Round 5
+Hash Generated - k: 1 - Count: 1 - Time spent: 1.9311904907226562e-05
+Hash Generated - k: 2 - Count: 2 - Time spent: 3.123283386230469e-05
+Hash Generated - k: 3 - Count: 3 - Time spent: 4.9114227294921875e-05
+Hash Generated - k: 4 - Count: 20 - Time spent: 0.00018930435180664062
+Hash Generated - k: 5 - Count: 130 - Time spent: 0.0011129379272460938
+Hash Generated - k: 6 - Count: 12 - Time spent: 0.0001354217529296875
+Hash Generated - k: 7 - Count: 206 - Time spent: 0.001760244369506836
+Hash Generated - k: 8 - Count: 80 - Time spent: 0.0007290840148925781
+Hash Generated - k: 9 - Count: 147 - Time spent: 0.0012478828430175781
+Hash Generated - k: 10 - Count: 766 - Time spent: 0.006597757339477539
+Hash Generated - k: 11 - Count: 2728 - Time spent: 0.025848388671875
+Hash Generated - k: 12 - Count: 4432 - Time spent: 0.05187225341796875
+Hash Generated - k: 13 - Count: 4112 - Time spent: 0.04245448112487793
+Hash Generated - k: 14 - Count: 5740 - Time spent: 0.0569605827331543
+Hash Generated - k: 15 - Count: 52236 - Time spent: 0.49233388900756836
+Hash Generated - k: 16 - Count: 31759 - Time spent: 0.29033541679382324
+Hash Generated - k: 17 - Count: 184335 - Time spent: 2.380955696105957
+Hash Generated - k: 18 - Count: 211271 - Time spent: 2.843296527862549
+Hash Generated - k: 19 - Count: 851030 - Time spent: 9.524593114852905
+Hash Generated - k: 20 - Count: 13893 - Time spent: 0.22076201438903809
+Hash Generated - k: 21 - Count: 1272396 - Time spent: 11.803147315979004
+Hash Generated - k: 22 - Count: 4065438 - Time spent: 40.35300946235657
+Hash Generated - k: 23 - Count: 17794907 - Time spent: 157.39844036102295
+Hash Generated - k: 24 - Count: 17331267 - Time spent: 155.2282679080963
+Hash Generated - k: 25 - Count: 53667331 - Time spent: 461.43281960487366
+
+Round 6
+Hash Generated - k: 1 - Count: 1 - Time spent: 4.315376281738281e-05
+Hash Generated - k: 2 - Count: 5 - Time spent: 9.703636169433594e-05
+Hash Generated - k: 3 - Count: 7 - Time spent: 0.000102996826171875
+Hash Generated - k: 4 - Count: 15 - Time spent: 0.00016808509826660156
+Hash Generated - k: 5 - Count: 25 - Time spent: 0.00028777122497558594
+Hash Generated - k: 6 - Count: 5 - Time spent: 8.678436279296875e-05
+Hash Generated - k: 7 - Count: 354 - Time spent: 0.0029952526092529297
+Hash Generated - k: 8 - Count: 367 - Time spent: 0.003114938735961914
+Hash Generated - k: 9 - Count: 258 - Time spent: 0.0021986961364746094
+Hash Generated - k: 10 - Count: 1260 - Time spent: 0.013765096664428711
+Hash Generated - k: 11 - Count: 4605 - Time spent: 0.04309272766113281
+Hash Generated - k: 12 - Count: 4575 - Time spent: 0.04494118690490723
+Hash Generated - k: 13 - Count: 9484 - Time spent: 0.08401679992675781
+Hash Generated - k: 14 - Count: 26791 - Time spent: 0.22808098793029785
+Hash Generated - k: 15 - Count: 21809 - Time spent: 0.18959903717041016
+Hash Generated - k: 16 - Count: 139232 - Time spent: 1.1733410358428955
+Hash Generated - k: 17 - Count: 155486 - Time spent: 1.3155004978179932
+Hash Generated - k: 18 - Count: 54309 - Time spent: 0.45824480056762695
+Hash Generated - k: 19 - Count: 621461 - Time spent: 5.228095054626465
+Hash Generated - k: 20 - Count: 336444 - Time spent: 2.843730926513672
+Hash Generated - k: 21 - Count: 276172 - Time spent: 2.325923204421997
+Hash Generated - k: 22 - Count: 115953 - Time spent: 0.9753007888793945
+Hash Generated - k: 23 - Count: 867312 - Time spent: 7.313006639480591
+Hash Generated - k: 24 - Count: 33234568 - Time spent: 280.5351800918579
+Hash Generated - k: 25 - Count: 73482398 - Time spent: 620.0361745357513
+
+Round 7
+Hash Generated - k: 1 - Count: 1 - Time spent: 1.5497207641601562e-05
+Hash Generated - k: 2 - Count: 1 - Time spent: 1.4543533325195312e-05
+Hash Generated - k: 3 - Count: 5 - Time spent: 6.890296936035156e-05
+Hash Generated - k: 4 - Count: 5 - Time spent: 7.700920104980469e-05
+Hash Generated - k: 5 - Count: 35 - Time spent: 0.00032520294189453125
+Hash Generated - k: 6 - Count: 58 - Time spent: 0.0005164146423339844
+Hash Generated - k: 7 - Count: 20 - Time spent: 0.0002002716064453125
+Hash Generated - k: 8 - Count: 48 - Time spent: 0.0004360675811767578
+Hash Generated - k: 9 - Count: 21 - Time spent: 0.00020837783813476562
+Hash Generated - k: 10 - Count: 261 - Time spent: 0.0022280216217041016
+Hash Generated - k: 11 - Count: 1858 - Time spent: 0.020367145538330078
+Hash Generated - k: 12 - Count: 1616 - Time spent: 0.018354177474975586
+Hash Generated - k: 13 - Count: 3164 - Time spent: 0.030066967010498047
+Hash Generated - k: 14 - Count: 21830 - Time spent: 0.1862342357635498
+Hash Generated - k: 15 - Count: 50906 - Time spent: 0.43497443199157715
+Hash Generated - k: 16 - Count: 76430 - Time spent: 0.6501538753509521
+Hash Generated - k: 17 - Count: 30334 - Time spent: 0.260120153427124
+Hash Generated - k: 18 - Count: 26951 - Time spent: 0.23018264770507812
+Hash Generated - k: 19 - Count: 53721 - Time spent: 0.4568185806274414
+Hash Generated - k: 20 - Count: 209701 - Time spent: 1.769021987915039
+Hash Generated - k: 21 - Count: 836522 - Time spent: 7.0780861377716064
+Hash Generated - k: 22 - Count: 970565 - Time spent: 8.14516019821167
+Hash Generated - k: 23 - Count: 6661236 - Time spent: 56.06732749938965
+Hash Generated - k: 24 - Count: 12117065 - Time spent: 102.58268427848816
+Hash Generated - k: 25 - Count: 9344375 - Time spent: 78.84378004074097
+
+Round 8
+Hash Generated - k: 1 - Count: 3 - Time spent: 5.7697296142578125e-05
+Hash Generated - k: 2 - Count: 4 - Time spent: 5.7697296142578125e-05
+Hash Generated - k: 3 - Count: 2 - Time spent: 3.838539123535156e-05
+Hash Generated - k: 4 - Count: 44 - Time spent: 0.0004246234893798828
+Hash Generated - k: 5 - Count: 24 - Time spent: 0.00023698806762695312
+Hash Generated - k: 6 - Count: 144 - Time spent: 0.0014009475708007812
+Hash Generated - k: 7 - Count: 2 - Time spent: 4.2438507080078125e-05
+Hash Generated - k: 8 - Count: 26 - Time spent: 0.0002639293670654297
+Hash Generated - k: 9 - Count: 655 - Time spent: 0.0056455135345458984
+Hash Generated - k: 10 - Count: 1065 - Time spent: 0.012338876724243164
+Hash Generated - k: 11 - Count: 1263 - Time spent: 0.011869668960571289
+Hash Generated - k: 12 - Count: 2613 - Time spent: 0.023849010467529297
+Hash Generated - k: 13 - Count: 7297 - Time spent: 0.06412672996520996
+Hash Generated - k: 14 - Count: 7192 - Time spent: 0.06473970413208008
+Hash Generated - k: 15 - Count: 16115 - Time spent: 0.1399860382080078
+Hash Generated - k: 16 - Count: 162232 - Time spent: 1.373075246810913
+Hash Generated - k: 17 - Count: 100292 - Time spent: 0.8507158756256104
+Hash Generated - k: 18 - Count: 381252 - Time spent: 3.234941005706787
+Hash Generated - k: 19 - Count: 14667 - Time spent: 0.12831759452819824
+Hash Generated - k: 20 - Count: 67705 - Time spent: 0.5746872425079346
+Hash Generated - k: 21 - Count: 471561 - Time spent: 3.9709718227386475
+Hash Generated - k: 22 - Count: 3164417 - Time spent: 26.916253566741943
+Hash Generated - k: 23 - Count: 4661024 - Time spent: 39.3021776676178
+Hash Generated - k: 24 - Count: 11358602 - Time spent: 95.7662672996521
+Hash Generated - k: 25 - Count: 22024964 - Time spent: 185.83586359024048
+
+Round 9
+Hash Generated - k: 1 - Count: 3 - Time spent: 7.724761962890625e-05
+Hash Generated - k: 2 - Count: 3 - Time spent: 7.343292236328125e-05
+Hash Generated - k: 3 - Count: 16 - Time spent: 0.00017452239990234375
+Hash Generated - k: 4 - Count: 23 - Time spent: 0.00023365020751953125
+Hash Generated - k: 5 - Count: 92 - Time spent: 0.0007965564727783203
+Hash Generated - k: 6 - Count: 34 - Time spent: 0.0003421306610107422
+Hash Generated - k: 7 - Count: 32 - Time spent: 0.00030612945556640625
+Hash Generated - k: 8 - Count: 724 - Time spent: 0.0060727596282958984
+Hash Generated - k: 9 - Count: 720 - Time spent: 0.008514881134033203
+Hash Generated - k: 10 - Count: 1103 - Time spent: 0.010895967483520508
+Hash Generated - k: 11 - Count: 12 - Time spent: 0.00012421607971191406
+Hash Generated - k: 12 - Count: 1525 - Time spent: 0.014545917510986328
+Hash Generated - k: 13 - Count: 46244 - Time spent: 0.39132237434387207
+Hash Generated - k: 14 - Count: 1783 - Time spent: 0.01771712303161621
+Hash Generated - k: 15 - Count: 31864 - Time spent: 0.27126169204711914
+Hash Generated - k: 16 - Count: 190811 - Time spent: 1.6133215427398682
+Hash Generated - k: 17 - Count: 250533 - Time spent: 2.106610059738159
+Hash Generated - k: 18 - Count: 10712 - Time spent: 0.0973820686340332
+Hash Generated - k: 19 - Count: 24657 - Time spent: 0.21334362030029297
+Hash Generated - k: 20 - Count: 661584 - Time spent: 5.5621888637542725
+Hash Generated - k: 21 - Count: 2355482 - Time spent: 19.94399905204773
+Hash Generated - k: 22 - Count: 1062588 - Time spent: 8.93154525756836
+Hash Generated - k: 23 - Count: 6618900 - Time spent: 55.72166657447815
+Hash Generated - k: 24 - Count: 22239978 - Time spent: 188.35219407081604
+Hash Generated - k: 25 - Count: 7604876 - Time spent: 64.05103874206543
+
+For k: 1
+Average count: 0.92
+Average time: 1.9960403442382812e-05
+
+For k: 2
+Average count: 1.44
+Average time: 2.4509429931640624e-05
+
+For k: 3
+Average count: 2.96
+Average time: 4.111289978027344e-05
+
+For k: 4
+Average count: 6.2
+Average time: 6.772994995117187e-05
+
+For k: 5
+Average count: 19.48
+Average time: 0.00017798423767089843
+
+For k: 6
+Average count: 26.6
+Average time: 0.00024278640747070314
+
+For k: 7
+Average count: 42.96
+Average time: 0.00037957191467285155
+
+For k: 8
+Average count: 94.64
+Average time: 0.0008100414276123047
+
+For k: 9
+Average count: 148.44
+Average time: 0.0013948726654052735
+
+For k: 10
+Average count: 264.8
+Average time: 0.002621030807495117
+
+For k: 11
+Average count: 1195.92
+Average time: 0.011777753829956055
+
+For k: 12
+Average count: 1195.88
+Average time: 0.011792869567871093
+
+For k: 13
+Average count: 4567.16
+Average time: 0.040061416625976565
+
+For k: 14
+Average count: 5630.52
+Average time: 0.04930395126342774
+
+For k: 15
+Average count: 9168.2
+Average time: 0.08108681678771973
+
+For k: 16
+Average count: 33535.48
+Average time: 0.28546598434448245
+
+For k: 17
+Average count: 59274.12
+Average time: 0.5341223049163818
+
+For k: 18
+Average count: 83311.64
+Average time: 0.7597247982025146
+
+For k: 19
+Average count: 120631.48
+Average time: 1.1118099117279052
+
+For k: 20
+Average count: 223945.08
+Average time: 1.896712818145752
+
+For k: 21
+Average count: 1123503.04
+Average time: 9.510081815719605
+
+For k: 22
+Average count: 1616315.52
+Average time: 13.883199434280396
+
+For k: 23
+Average count: 3438571.8
+Average time: 29.330300636291504
+
+For k: 24
+Average count: 5282072.72
+Average time: 45.02123266220093
+
+For k: 25
+Average count: 9601517.48
+Average time: 81.7558985042572

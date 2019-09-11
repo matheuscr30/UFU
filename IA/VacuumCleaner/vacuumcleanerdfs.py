@@ -57,7 +57,7 @@ def dfs(line, column):
 
 		if (newLine, newColumn) not in visited:
 			visited.append((newLine, newColumn))
-			clean(newLine, newColumn)
+			dfs(newLine, newColumn)
 
 if __name__ == "__main__":
 	numLines = int(input("Digite o numero de linhas: "))

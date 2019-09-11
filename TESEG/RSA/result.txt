@@ -1,0 +1,8 @@
+For (c, e, n) = (172534, 79, 1325147)
+P = 461212 found in 461211 iterations in 1.02 seconds
+
+For (c, e, n) = (48965079, 11, 87411743)
+P = 24450720 found in 24450719 iterations in 17.09 seconds
+
+For (c, e, n) = (100659095, 365, 153988391)
+P = 89321962 found in 89321961 iterations in 2285.52 seconds

@@ -242,7 +242,7 @@ correctPuzzle.puzzle = [[1, 2, 3], [4, 5, 6], [7, 8, -1]]
 if __name__ == "__main__":
     puzzle = Puzzle()
 
-    """while True:
+    while True:
         print("\nCreating the puzzle randomly ")
         puzzle.createPuzzle()
         puzzle.printPuzzle()
@@ -250,10 +250,9 @@ if __name__ == "__main__":
             break
         else:
             print("Not Solvable")
-    """
 
-    puzzle.puzzle = [[4, 8, 2], [-1, 3, 1], [7, 5, 6]]
-    puzzle.printPuzzle()
+    # puzzle.puzzle = [[4, 8, 2], [-1, 3, 1], [7, 5, 6]]
+    #puzzle.printPuzzle()
 
     puzzle.solvePuzzle(1)
     print()
