@@ -1,5 +1,5 @@
-GBD/.*
-LFA/.*
+GBD/
+LFA/
 MS/**/*.pdf
 MS/**/*.docx
 TESEG/**/venv/
