@@ -7,9 +7,6 @@ mnist = tf.keras.datasets.mnist
 # All the images are in format (28, 28)
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 
-# plt.imshow(x_train[0], cmap = plt.cm.binary)
-# plt.show()
-
 # Transform data (0 to 265) in (0 to 1)
 x_train = tf.keras.utils.normalize(x_train, axis=1)
 x_test = tf.keras.utils.normalize(x_test, axis=1)
@@ -31,7 +28,7 @@ val_loss, val_acc = model.evaluate(x_test, y_test)
 print(val_loss, val_acc)
 
 model.save('nn.model')
-new_model = tf.keras.models.load_model('nn.model')
+# new_model = tf.keras.models.load_model('nn.model')
 
 predictions = new_model.predict(x_test)
 print(predictions)
