@@ -247,18 +247,9 @@ if __name__ == "__main__":
         puzzle.createPuzzle()
         puzzle.printPuzzle()
         if puzzle.isSolvable():
-            break
+        	print("Is Solvable")
+        	puzzle.solvePuzzle(1)
+        	break
         else:
             print("Not Solvable")
 
-    # puzzle.puzzle = [[4, 8, 2], [-1, 3, 1], [7, 5, 6]]
-    #puzzle.printPuzzle()
-
-    puzzle.solvePuzzle(1)
-    print()
-
-    """
-    start = time.time()
-    end = time.time()
-    print(end - start)
-    """
