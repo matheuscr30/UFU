@@ -5,6 +5,7 @@ Some algorithms that I've made in my Computer Science Graduation
 ## Subjects
 
 * AED2 - Data Structures and Algorithms
+* CC - Constructor Compilers
 * ESOF - Software Engineering
 * IA - Artificial Intelligence
 * IC - Computational Intelligence
