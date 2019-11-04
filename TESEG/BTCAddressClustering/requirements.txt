@@ -1,4 +1,15 @@
+beautifulsoup4==4.8.1
 blockchain==1.4.4
+certifi==2019.9.11
+chardet==3.0.4
 enum-compat==0.0.2
 future==0.17.1
+idna==2.8
+joblib==0.14.0
+numpy==1.17.3
 pymongo==3.9.0
+requests==2.22.0
+scikit-learn==0.21.3
+scipy==1.3.1
+soupsieve==1.9.4
+urllib3==1.25.6

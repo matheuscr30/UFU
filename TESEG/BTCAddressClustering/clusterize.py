@@ -2,14 +2,13 @@ from pymongo import MongoClient
 
 client = MongoClient('localhost', 27017)
 db = client.blockchain_db
-db_transactions = db.transactions
 
 def heuristicH1():
     addresses_to_clusters = {}
     clusters = {}
     next_cluster = 1
 
-    transactions = db_transactions.find()
+    transactions = db.transactions.find()
     count = 0
     for transaction in transactions:
         count += 1
@@ -30,27 +29,55 @@ def heuristicH1():
             # If they are unknow addresses, create a cluster
             if actual_clusters is None:
                 addresses = []
+                sum_btc_in = 0
+                sum_btc_out = 0
+
                 for input in transaction['inputs']:
                     addresses.append(input['address'])
                     addresses_to_clusters[input['address']] = next_cluster
+                    sum_btc_in += input['value']
 
-                clusters[next_cluster] = set(addresses)
+                for output in transaction['outputs']:
+                    sum_btc_out += output['value']
+
+                clusters[next_cluster] = {
+                    "addresses": set(addresses),
+                    "num_transactions": 1,
+                    "btc_in": sum_btc_in,
+                    "btc_out": sum_btc_out
+                }
                 next_cluster += 1
             # Merge clusters
             else:
                 min_cluster = min(actual_clusters)
 
+                sum_btc_in = 0
+                sum_btc_out = 0
+
+                # For the case that exists at least one unknow address between the others
                 for input in transaction['inputs']:
-                    clusters[min_cluster].add(input['address'])
+                    clusters[min_cluster]['addresses'].add(input['address'])
                     addresses_to_clusters[input['address']] = min_cluster
+                    sum_btc_in += input['value']
+
+                for output in transaction['outputs']:
+                    sum_btc_out += output['value']
+
+                clusters[min_cluster]['num_transactions'] += 1
+                clusters[min_cluster]['btc_in'] += sum_btc_in
+                clusters[min_cluster]['btc_out'] += sum_btc_out
 
                 if (len(actual_clusters) > 1):
                     for cluster in set(actual_clusters):
                         if cluster != min_cluster:
-                            addresses = list(clusters[cluster])
+                            clusters[min_cluster]['num_transactions'] += clusters[cluster]['num_transactions']
+                            clusters[min_cluster]['btc_in'] += clusters[cluster]['btc_in']
+                            clusters[min_cluster]['btc_out'] += clusters[cluster]['btc_out']
+
+                            addresses = list(clusters[cluster]['addresses'])
                             for address in addresses:
                                 addresses_to_clusters[address] = min_cluster
-                                clusters[min_cluster].add(address)
+                                clusters[min_cluster]['addresses'].add(address)
                             del clusters[cluster]
     return clusters, addresses_to_clusters
 
@@ -60,7 +87,7 @@ def heuristicH2(addresses_to_clustersH1):
     clustersH2 = {}
     next_cluster = 1
 
-    transactions = db_transactions.find()
+    transactions = db.transactions.find()
     count = 0
     for transaction in transactions:
         count += 1
@@ -104,7 +131,7 @@ def stats_clusters(clusters):
 
     result = {}
     for cluster in clusters:
-        size_cluster = len(clusters[cluster])
+        size_cluster = len(clusters[cluster]['addresses'])
         if size_cluster in result:
             result[size_cluster] += 1
         else:
@@ -118,13 +145,34 @@ def stats_clusters(clusters):
             break
         print(f'Cluster size: {key} /  Qtd Clusters: {value}')
 
-if __name__ == '__main__':
-    clustersH1, addresses_to_clustersH1 = heuristicH1()
-    print()
-    print('For H1:')
-    stats_clusters(clustersH1)
+def save_clusters_h1(clusters):
+    db.clusters.drop()
 
-    clustersH2 = heuristicH2(addresses_to_clustersH1)
-    print()
-    print('For H2:')
-    stats_clusters(clustersH2)
+    print('Saving Clusters')
+    count = 0
+    for cluster in clusters:
+        count += 1
+        if count % 50000 == 0:
+            print(f'Cluster: {count}')
+        json_cluster = clusters[cluster]
+        json_cluster['addresses'] = list(json_cluster['addresses'])
+        db.clusters.insert_one(json_cluster)
+
+if __name__ == '__main__':
+    print('Choose one option:')
+    print('1 - Execute heuristic 1')
+    print('2 - Execute both')
+    option = int(input('> '))
+
+    if option == 1 or option == 2:
+        clustersH1, addresses_to_clustersH1 = heuristicH1()
+        print()
+        print('For H1:')
+        stats_clusters(clustersH1)
+        save_clusters_h1(clustersH1)
+
+        if option == 2:
+            clustersH2 = heuristicH2(addresses_to_clustersH1)
+            print()
+            print('For H2:')
+            stats_clusters(clustersH2)

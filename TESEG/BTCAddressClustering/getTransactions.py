@@ -4,11 +4,12 @@ import time
 
 client = MongoClient('localhost', 27017)
 db = client.blockchain_db
-db_transactions = db.transactions
 
 if __name__ == '__main__':
     accounts = {}
     transactions_limit = 1000000
+
+    db.transactions.drop()
 
     height = blockexplorer.get_latest_block().height
     count_transactions = 0
@@ -21,7 +22,7 @@ if __name__ == '__main__':
                 json_transaction = transaction.__dict__
                 json_transaction['inputs'] = [input.__dict__ for input in json_transaction['inputs'] if hasattr(input, 'address')]
                 json_transaction['outputs'] = [output.__dict__ for output in json_transaction['outputs'] if output.address is not None]
-                db_transactions.insert_one(json_transaction)
+                db.transactions.insert_one(json_transaction)
                 count_transactions += 1
         height -= 1
         time.sleep(0.7)
