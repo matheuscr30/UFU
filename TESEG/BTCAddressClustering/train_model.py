@@ -1,7 +1,9 @@
 from bson.objectid import ObjectId
-from pymongo import MongoClient
+from pymongo import MongoClient, ASCENDING
+import matplotlib.pyplot as plt
 from bs4 import BeautifulSoup
 from sklearn import tree
+import numpy as np
 import requests
 import pickle
 import os
@@ -23,8 +25,6 @@ def is_from_exchange(tx_id):
             return False, None
         return True, exchange_name
     except Exception as e:
-        print(e)
-        print(tx_id)
         return False, None
 
 def set_train_clusters(clusters_for_training):
@@ -41,11 +41,9 @@ def set_train_clusters(clusters_for_training):
         count += 1
 
 class DecisionTreeClassifier:
-    def __init__(self):
-        """ Get 30% of clusters for training and 70% for predict """
-        total_clusters = db.clusters.count_documents({})
-        self.clusters_for_training = int(total_clusters/3)
-        self.clusters_for_predict = total_clusters - self.clusters_for_training
+    def __init__(self, clusters_for_training=100, no_train=False):
+        self.clusters_for_training = clusters_for_training
+        self.no_train = no_train
 
         if os.path.exists('model/model.pkl'):
             self.load_model()
@@ -60,18 +58,22 @@ class DecisionTreeClassifier:
     def train_model(self):
         query = {"is_exchange": { "$exists": True, "$ne": None }}
 
-        if db.clusters.count_documents(query) == 0:
+        if not self.no_train:
             set_train_clusters(self.clusters_for_training)
 
         train_clusters = []
         labels = []
 
-        for cluster in db.clusters.find(query):
+        qtd_train_clusters = db.clusters.count_documents(query) / 2
+        print(f'Qtd Clusters: {int(qtd_train_clusters)}')
+
+        for cluster in db.clusters.find(query).sort("_id", 1).limit(int(qtd_train_clusters)):
             train_clusters.append([
                 cluster['num_transactions'],
                 len(cluster['addresses']),
                 cluster['btc_in'],
-                cluster['btc_out']
+                cluster['btc_out'],
+                cluster['gini']
             ])
             labels.append(cluster['is_exchange'])
 
@@ -83,42 +85,54 @@ class DecisionTreeClassifier:
             pickle.dump(self.model, model_file)
 
     def predict(self):
-        query = {"is_exchange": { "$exists": False} }
+        query = {"is_exchange": { "$exists": True, "$ne": None }}
 
         predict_clusters = []
+        answers_clusters = {}
+
+        qtd_predict_clusters = db.clusters.count_documents(query) / 2
+        print(f'Qtd Predict Clusters: {int(qtd_predict_clusters)}')
 
         count = 0
-        for cluster in db.clusters.find(query):
-            if count == 477:
-                print(cluster['addresses'][0])
-            count += 1
+        for cluster in db.clusters.find(query).sort("_id", -1).limit(int(qtd_predict_clusters)):
             predict_clusters.append([
                 cluster['num_transactions'],
                 len(cluster['addresses']),
                 cluster['btc_in'],
-                cluster['btc_out']
+                cluster['btc_out'],
+                cluster['gini']
             ])
+            answers_clusters[count] = cluster['is_exchange']
+            count += 1
 
         values = self.model.predict(predict_clusters)
-        cou = 0
-        for item in values:
-            if item == True:
-                cou += 1
-        print(cou)
-        pos = list(values).index(True)
-        print(pos)
-        print(predict_clusters[pos])
-        # print(values)
+
+        miss = 0
+        succeeded = 0
+
+        is_exchange_true_succeeded = 0
+        is_exchange_true_miss = 0
+
+        index = 0
+        for is_exchange_predicted in values:
+            if is_exchange_predicted:
+                if answers_clusters[index]:
+                    is_exchange_true_succeeded += 1
+                else:
+                    is_exchange_true_miss += 1
+
+            if is_exchange_predicted == answers_clusters[index]:
+                succeeded += 1
+            else:
+                miss += 1
+            index += 1
+
+        print(f'Succeeded Predictions: {succeeded} - {succeeded*100/qtd_predict_clusters}')
+        print(f'Failed Predictions: {miss} - {miss*100/qtd_predict_clusters}')
+        print()
+        print(f'Succeeded when prediction is true: {is_exchange_true_succeeded} {is_exchange_true_succeeded*100/(is_exchange_true_miss+is_exchange_true_succeeded)}')
+        print(f'Miss when prediction is true: {is_exchange_true_miss} {is_exchange_true_miss*100/(is_exchange_true_miss+is_exchange_true_succeeded)}')
 
 if __name__ == '__main__':
-    """ Get 30% of clusters for training and 70% for predict """
-    total_clusters = db.clusters.count_documents({})
-    print(total_clusters)
-    clusters_for_training = int(total_clusters/3)
-    clusters_for_predict = total_clusters - clusters_for_training
-
-    DTC = DecisionTreeClassifier()
+    DTC = DecisionTreeClassifier(20000, no_train=True)
     DTC.predict()
-    # set_train_clusters(clusters_for_training)
-
-#28821

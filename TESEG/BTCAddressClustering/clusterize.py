@@ -1,10 +1,27 @@
 from pymongo import MongoClient
+import numpy as np
 
 client = MongoClient('localhost', 27017)
 db = client.blockchain_db
 
+def gini(arr):
+    count = arr.size
+    coefficient = 2 / count
+    indexes = np.arange(1, count + 1)
+
+    weights = []
+    weighted_sum = 0
+    total = 0
+    for i in range(count):
+        weighted_sum += indexes[i] * arr[i]
+        total += arr[i]
+
+    constant = (count + 1) / count
+    return coefficient * weighted_sum / total - constant
+
 def heuristicH1():
     addresses_to_clusters = {}
+    addresses_btc_in = {}
     clusters = {}
     next_cluster = 1
 
@@ -35,6 +52,7 @@ def heuristicH1():
                 for input in transaction['inputs']:
                     addresses.append(input['address'])
                     addresses_to_clusters[input['address']] = next_cluster
+                    addresses_btc_in[input['address']] = input['value']
                     sum_btc_in += input['value']
 
                 for output in transaction['outputs']:
@@ -60,6 +78,11 @@ def heuristicH1():
                     addresses_to_clusters[input['address']] = min_cluster
                     sum_btc_in += input['value']
 
+                    if input['address'] in addresses_btc_in:
+                        addresses_btc_in[input['address']] += input['value']
+                    else:
+                        addresses_btc_in[input['address']] = input['value']
+
                 for output in transaction['outputs']:
                     sum_btc_out += output['value']
 
@@ -79,6 +102,20 @@ def heuristicH1():
                                 addresses_to_clusters[address] = min_cluster
                                 clusters[min_cluster]['addresses'].add(address)
                             del clusters[cluster]
+
+    count = 0
+    for key, cluster in clusters.items():
+        if count % 10000:
+            print(f'Cluster: {count}')
+        count += 1
+        gini_arr = []
+        for address in cluster['addresses']:
+            gini_arr.append(addresses_btc_in[address])
+        gini_arr.sort()
+
+        gini_value = gini(np.array(gini_arr))
+        clusters[key]['gini'] = gini_value
+
     return clusters, addresses_to_clusters
 
 def heuristicH2(addresses_to_clustersH1):

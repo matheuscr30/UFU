@@ -1,4 +1,4 @@
-int POP_SIZE = 200;
+int POP_SIZE = 50;
 PVector target;
 Population pop;
 
