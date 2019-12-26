@@ -1,0 +1,19 @@
+﻿programa
+inicio
+    int x1; int x2;
+    int media; int sem_nota;
+
+    x1=6;
+    x2=4;
+    media=(x1 + x2)/2;
+
+    se (media >= 6)
+    inicio
+        sem_nota = 0;
+    fim
+
+    se (media < 6)
+    inicio
+        sem_nota = 1;
+    fim
+fim

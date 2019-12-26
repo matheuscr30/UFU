@@ -1,0 +1,16 @@
+﻿programa
+inicio
+    int x; int y;
+
+    x = 0;
+
+    enquanto (x <> 10)
+    inicio
+        x = x+1;
+    fim
+
+    se (x == 10)
+    inicio
+        y=1
+    fim
+fim
