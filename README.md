@@ -12,8 +12,10 @@ Some algorithms that I've made in my Computer Science Graduation
 * MS - Simulation Modelling
 * POO1 / POO2 - Object Oriented Programming
 * SBD - Database Systems
+* SEG - Information Security
 * SD - Distributed Systems
 * SO - Operational Systems
+* TEIA - Special Artificial Intelligence Topics: Data Clustering
 * TESEG - Special Safety Topics: Blockchain, CryptoCoins
 
 ## Authors
