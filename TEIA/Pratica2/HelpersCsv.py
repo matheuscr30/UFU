@@ -26,13 +26,25 @@ class ParseCsv():
         for line in self.file:
             self.data.append(self.split_line(line))
 
+        self.file.close()
         return self.data
 
 
 class WriteCsv():
-    def __init__(self, path):
+    def __init__(self, path=''):
         self.path = path
-        self.file = open(path, 'w+')
+        self.filename = 'result.csv'
+        self.file = open(self.path + self.filename, 'w+')
+
+    def join_line(self, data_line):
+        data_line = [str(v) for v in data_line]
+        line = ','.join(data_line)
+        line += '\n'
+        return line
 
     def write_data(self, data):
-        pass
+        for data_line in data:
+            line = self.join_line(data_line)
+            self.file.write(line)
+
+        self.file.close()
