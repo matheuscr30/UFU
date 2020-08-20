@@ -9,13 +9,18 @@ class ParseCsv():
     def split_line(self, line):
         line = line.strip('\n')
 
+        if not len(line):
+            return None
+
         # If the rows are separated by commas
         data = line.split(',')
-        if len(data) > 1:
-            return data
 
         # If not parse by ;
-        data = line.split(';')
+        if len(data) <= 1:
+            data = line.split(';')
+
+        # Strip leading and ending spaces
+        data = [v.strip() for v in data]
         return data
 
     def get_data(self):
@@ -24,7 +29,10 @@ class ParseCsv():
             self.headers = self.split_line(line)
 
         for line in self.file:
-            self.data.append(self.split_line(line))
+            data_line = self.split_line(line)
+
+            if data_line:
+                self.data.append(data_line)
 
         self.file.close()
         return self.data
