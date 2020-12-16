@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Konig Specialité - Uma cliníca médica especializada em cuidar de você">
+
+    <title>Konig Specialité - Clinica Médica</title>
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/fontawesome.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="../js/utils.js"></script>
+    <script type="text/javascript" src="../js/novo_endereco.js"></script>
+  </head>
+
+  <body>
+    <?php include('../header.php') ?>
+
+    <?php include('nav_publico.php') ?>
+
+    <main>
+      <div class="container mt-5">
+        <div id="alertMensagem" class="alert fade d-none" role="alert"></div>
+
+        <span class="main-title">Cadastre um novo endereço</span>
+
+        <form class="row gx-4 gy-3 mt-1" id="formEndereco" method="post">
+          <div class="col-sm-4">
+            <div class="form-floating">
+              <input class="form-control" type="text" id="cep" name="cep" placeholder="cep" maxlength="10" pattern="\d{2}\.\d{3}-\d{3}" required>
+              <small class="text-muted ml-1 mt-1">Formato: XX.XXX-XXX</small>
+              <label for="cep" id="cep">CEP</label>
+            </div>
+          </div>
+
+          <div class="col-sm-8">
+            <div class="form-floating">
+              <input class="form-control" type="text" id="logradouro" name="logradouro" maxlength="50" placeholder="logradouro" required>
+              <label for="logradouro" id="logradouro">Logradouro</label>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="form-floating">
+              <input class="form-control" type="text" id="bairro" name="bairro" maxlength="50" placeholder="bairro" required>
+              <label for="bairro" id="bairro">Bairro</label>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="form-floating">
+              <input class="form-control" type="text" id="cidade" name="cidade" maxlength="50" placeholder="cidade" required>
+              <label for="cidade" id="cidade">Cidade</label>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="form-floating">
+              <input class="form-control" type="text" id="estado" name="estado" maxlength="2" placeholder="estado" required>
+              <small class="text-muted ml-1 mt-1">Formato: XX</small>
+              <label for="estado" id="estado">Estado</label>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <button type="submit" class="btn btn-register">Cadastrar</button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <?php include('../footer.php') ?>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

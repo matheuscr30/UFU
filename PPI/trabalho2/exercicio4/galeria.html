@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Uma página com minhas informações pessoais">
+    <title>Galeria</title>
+
+    <style>
+      body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-sans-serif;
+        margin: 0;
+      }
+
+      header {
+        background-color: #555;
+        width: 100%;
+        color: white;
+        margin: 0;
+        position: absolute;
+        top: 0;
+      }
+
+      .profile {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .profile img {
+        border-radius: 50px;
+        width: 85px;
+        height: 85px;
+        vertical-align: middle;
+      }
+
+      .profile span {
+        margin-left: 10px;
+        font-size: 1.3rem;
+      }
+
+      nav {
+        background-color: black;
+        margin-top: 15px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        text-align: center;
+        padding: 10px 0;
+        margin: 0;
+      }
+
+      nav ul li {
+        display: inline;
+        padding: 10px 20px;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
+
+      nav ul li a:hover {
+        color: #6f7c7d;
+      }
+
+      main {
+        background-color: white;
+        margin-top: 12rem;
+        margin-bottom: 4rem;
+        padding: 10px 20px 20px 20px;
+      }
+
+      .align-center {
+        text-align: center;
+      }
+
+      #esportes {
+        margin: 0 auto;
+      }
+
+      #esportes img {
+        width: 250px;
+        height: 200px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="profile">
+        <img src="images/profile.png" alt="Profile Photo" height="75" width="75">
+        <span>Matheus Cunha Reis</span>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Currículo</a></li>
+          <li><a href="#">Galeria</a></li>
+          <li><a href="oferta_trabalho.html">Oferta de Trabalho</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2 class="align-center">Esportes Favoritos</h2>
+        <table id="esportes">
+          <tr>
+            <td><img src="images/swimming.jpeg" alt="sport1"></td>
+            <td><img src="images/beach_volley.jpeg" alt="sport2"></td>
+            <td><img src="images/baseball.jpeg" alt="sport3"></td>
+          </tr>
+
+          <tr>
+            <td><img src="images/tennis.jpeg" alt="sport4"></td>
+            <td><img src="images/basketball.jpeg" alt="sport5"></td>
+            <td><img src="images/beachtennis.jpg" alt="sport6"></td>
+          </tr>
+        </table>
+
+        <h2 class="align-center">Interesses</h2>
+        <div class="align-center">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/M8tq29ilZes" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Feito por Matheus Cunha Reis
+    </footer>
+  </body>
+</html>

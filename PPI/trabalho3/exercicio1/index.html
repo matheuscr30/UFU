@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Trabalho 3 - Exercicio 1</title>
+
+    <style>
+      body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-sans-serif;
+        background-image: url("images/background.jpg");
+        background-size: cover;
+        margin: 0;
+      }
+
+      .modal {
+        background-color: #0006;
+        display: none;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+
+        overflow: auto;
+        z-index: 1;
+      }
+
+      .modalContent {
+        background-color: #eee;
+        margin: auto;
+        padding: 20px;
+        border: 0.5px solid #aaa;
+        box-shadow: 0 0 5px #333;
+        width: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .modalContent button {
+        width: 100%;
+        background-color: rgb(179, 213, 235);
+        border-radius: 2px;
+        border: 1px solid rgb(159, 200, 255);
+        padding: 5px;
+        color: #333;
+        cursor: pointer;
+        outline: none;
+      }
+
+      .modalContent button:hover {
+        background-color: rgb(200, 223, 243);
+      }
+
+      main {
+        margin-top: 25px;
+        padding: 10px 20px 20px 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <h1>A FACOM</h1>
+      <p>
+        A Faculdade de Computação (FACOM) da Universidade Federal de Uberlândia foi criada em 2000,
+        a partir do extinto Departamento de Informática (DEINF), criado em 1988, no âmbito do CETEC.
+      </p>
+      <p>
+        No início dos anos 2000 foi criado na Faculdade o Programa de Pós-Graduação em Ciência da Computação.
+      </p>
+
+      <button type="button" id="btnOpenModal">Abrir Modal</button>
+    </main>
+
+    <div id="modalBemVindo" class="modal">
+      <div class="modalContent">
+        <h2>Olá! Seja bem vindo!</h2>
+        <button type="button" class="buttonClose">Ok</button>
+      </div>
+    </div>
+
+    <script>
+      // window.onload é executado quando todos os arquivos da pagina ja foram carregados
+      window.onload = function() {
+        const modal = document.querySelector('.modal'); // Retorna o primeiro elemento com a classe modal
+        const buttonOpen = document.getElementById('btnOpenModal'); // Retorna o elemento com o id btnOpenModal
+        const buttonClose = modal.querySelector('.buttonClose'); // Retorna o primeiro elemento com a class buttonClose
+
+        /* Cria um listener para o elemento da variavel buttonOpen, onde toda vez que clicarem no elemento,
+        o display do modal será trocado por block, ou seja o modal vai ficar visivel */
+        buttonOpen.addEventListener('click', () => {
+          modal.style.display = 'block';
+        });
+
+        /* Cria um listener para o elemento da variavel buttonClose, onde toda vez que clicarem no elemento,
+        o display do modal será trocado por none, ou seja o modal vai ser removido do DOM */
+        buttonClose.addEventListener('click', () => {
+          modal.style.display = 'none';
+        });
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Uma página com minhas informações pessoais">
+    <title>Curriculo</title>
+
+    <style>
+      body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-sans-serif;
+        margin: 0;
+      }
+
+      header {
+        background-color: #555;
+        width: 100%;
+        color: white;
+        margin: 0;
+        position: absolute;
+        top: 0;
+      }
+
+      .profile {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .profile img {
+        border-radius: 50px;
+        width: 85px;
+        height: 85px;
+        vertical-align: middle;
+      }
+
+      .profile span {
+        margin-left: 10px;
+        font-size: 1.3rem;
+      }
+
+      nav {
+        background-color: black;
+        margin-top: 15px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        text-align: center;
+        padding: 10px 0;
+        margin: 0;
+      }
+
+      nav ul li {
+        display: inline;
+        padding: 10px 20px;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
+
+      nav ul li a:hover {
+        color: #6f7c7d;
+      }
+
+      main {
+        background-color: white;
+        margin-top: 8rem;
+        padding: 10px 20px 20px 20px;
+      }
+
+      footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 10px 0;
+        background-color: black;
+        text-align: center;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="profile">
+        <img src="images/profile.png" alt="Profile Photo" height="75" width="75">
+        <span>Matheus Cunha Reis</span>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#">Currículo</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="oferta_trabalho.html">Oferta de Trabalho</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Currículo</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="oferta_trabalho.html">Oferta de Trabalho</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2>Dados Pessoais</h2>
+
+        <ul>
+          <li>Idade: 21 anos</li>
+          <li>Cidade de Nascimento: Uberlandia</li>
+        </ul>
+      </section>
+
+      <hr>
+
+      <section>
+        <h2>Formação Acadêmica</h2>
+
+        <ol>
+          <li>ESEBA - UFU</li>
+          <li>IFTM - CAMPUS UBERLANDIA</li>
+          <li>UFU</li>
+        </ol>
+      </section>
+
+      <hr>
+
+      <section>
+        <h2>Experiência Profissional</h2>
+
+        <p>
+          Trabalhei como frontend engineer no Google com uma das tecnologias mais recentes no ramo:
+          <cite>VueJs</cite>
+        </p>
+      </section>
+
+      <hr>
+
+      <section>
+        <h2>Informações de Contato</h2>
+
+        <address>
+          Telefone: <a href="tel:034-14564-8973">+55 34 145648973</a><br>
+          Email: <a href="mailto:mat@konig.dev">mat@konig.dev</a><br>
+          Linkedin: <a href="https://www.linkedin.com/" target="_blank">Perfil</a><br>
+        </address>
+      </section>
+    </main>
+
+    <br>
+
+    <footer>
+      Feito por Matheus Cunha Reis
+    </footer>
+  </body>
+</html>

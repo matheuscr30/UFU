@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Trabalho 3 - Exercicio 3</title>
+
+    <style>
+      body {
+        background-color: #e4dede;
+        margin: 0;
+      }
+
+      header {
+        background-color: black;
+        width: 100%;
+        color: white;
+        margin: 0;
+        text-align: center;
+        position: absolute;
+        top: 0;
+      }
+
+      nav {
+        background-color: white;
+        color: black;
+        border: 1px solid #ccc;
+        margin-top: 66px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        text-align: center;
+        padding: 10px 0;
+        margin: 0;
+      }
+
+      nav li {
+        display: inline;
+      }
+
+      nav button {
+        border: none;
+        background-color: white;
+        text-decoration: none;
+      }
+
+      nav button:hover {
+        color: blue;
+        cursor: pointer;
+        text-decoration: underline;
+        font-weight: bold;
+      }
+
+      main {
+        background-color: white;
+        width: 80%;
+        margin: 10px auto 0 auto;
+        padding: 15px 30px;
+        text-align: start;
+      }
+
+      h2 {
+        font-weight: bold;
+        color: #190cc0;
+      }
+
+      button.buttonActive {
+        font-weight: bold;
+        color: blue;
+      }
+
+      .tabs section {
+        display: none;
+      }
+
+      section.tabActive {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <section>
+        <h1>Faculdade de Computação</h1>
+      </section>
+    </header>
+
+    <nav>
+      <section>
+        <ul>
+          <li><button type="button">Ciência da Computação</button>|</li>
+          <li><button type="button">Sistemas de Informação</button>|</li>
+          <li><button type="button">Mestrado</button>|</li>
+          <li><button type="button">Doutorado</button></li>
+        </ul>
+      </section>
+    </nav>
+
+    <main>
+      <div class="tabs">
+        <section>
+          <h2>Bacharelado em Ciência da Computação</h2>
+          <p>
+            O Curso de Bacharelado em Ciência da COmputação é o marco inicial da Faculdade de Computação. Foi criado em 1988 e teve o seu reconhecimento em
+            11 de fevereiro de 1993 por meio da Portaria 181/93 do MEC. O objetio do Curso é formar profissionais da área de informática com competência no desenvolvimento de software,
+            atendendo adequadamente as exigências de mercado de trabalho, além de capacitar o egresso a concluir com sucesso programas de pós-graduação.
+          </p>
+          <p>
+            Os egressos do curso têm obtido grande êxito na realização profissional, destacando, um considerável número de empresas pertencentes à ex-alunos do curso;
+            um grande número de alunos que ingressam em consolidados cursos de pós-graduação no país e exterior; atuação significativa de nossos ex-alunos em atividades de ensino e pesquisa
+            em instituições de ensino de nível superior; e outros tantos que atuam em grandes empresas nacionais e multinacionais.
+          </p>
+        </section>
+
+        <section>
+          <h2>Bacharelado em Sistemas de Informação</h2>
+          <p>
+            O Curso de Bacharelado em Sistemas de Informação foi criado no ano de 2009 e teve o seu reconhecimento em 31 de Maio de 2013 por meio da Portaria 248/13 do Ministério da Educação.
+          </p>
+          <p>
+          O Objetivo do Curso é preparar profissionais com sólida e ampla formação técnica na área de tecnologia da informação aplicada às organizações; Desenvolver discentes empreendedores, capazes de projetar, implementar e gerenciar a infraestrutura de tecnlogia da informação envolvendo computadores, comunicação e dados em sistemas organizacionais; Consolidar um profissional cidadão, com competências - conhecimentos, habilidades e atitudes - e com responsabilidade social, capaz de respeitar as diferenças individuais, saber produzir e usar a tecnologia em benefício da sociedade e com visão sistêmica de negócios.</p>
+        </section>
+
+        <section>
+          <h2>Mestrado em Ciência da Computação</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum iaculis ex congue erat vestibulum, vel aliquet tellus sollicitudin. Vestibulum justo massa, sollicitudin ac imperdiet ac, pretium nec risus. Curabitur consequat fringilla nisi, eu varius justo. Sed volutpat, quam ut iaculis consequat, nulla libero elementum libero, et fringilla enim urna ut justo. Morbi auctor et felis non tincidunt. Aenean nec elit non est rutrum fermentum. Duis et fermentum lectus. Mauris in metus porta, efficitur dolor at, dapibus ipsum. Nulla magna erat, sollicitudin eget tincidunt ac, egestas et mauris.
+          </p>
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum iaculis ex congue erat vestibulum, vel aliquet tellus sollicitudin. Vestibulum justo massa, sollicitudin ac imperdiet ac, pretium nec risus. Curabitur consequat fringilla nisi, eu varius justo. Sed volutpat, quam ut iaculis consequat, nulla libero elementum libero, et fringilla enim urna ut justo. Morbi auctor et felis non tincidunt. Aenean nec elit non est rutrum fermentum. Duis et fermentum lectus. Mauris in metus porta, efficitur dolor at, dapibus ipsum. Nulla magna erat, sollicitudin eget tincidunt ac, egestas et mauris.</p>
+        </section>
+
+        <section>
+          <h2>Doutorado em Ciência da Computação</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum iaculis ex congue erat vestibulum, vel aliquet tellus sollicitudin. Vestibulum justo massa, sollicitudin ac imperdiet ac, pretium nec risus. Curabitur consequat fringilla nisi, eu varius justo. Sed volutpat, quam ut iaculis consequat, nulla libero elementum libero, et fringilla enim urna ut justo. Morbi auctor et felis non tincidunt. Aenean nec elit non est rutrum fermentum. Duis et fermentum lectus. Mauris in metus porta, efficitur dolor at, dapibus ipsum. Nulla magna erat, sollicitudin eget tincidunt ac, egestas et mauris.
+          </p>
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum iaculis ex congue erat vestibulum, vel aliquet tellus sollicitudin. Vestibulum justo massa, sollicitudin ac imperdiet ac, pretium nec risus. Curabitur consequat fringilla nisi, eu varius justo. Sed volutpat, quam ut iaculis consequat, nulla libero elementum libero, et fringilla enim urna ut justo. Morbi auctor et felis non tincidunt. Aenean nec elit non est rutrum fermentum. Duis et fermentum lectus. Mauris in metus porta, efficitur dolor at, dapibus ipsum. Nulla magna erat, sollicitudin eget tincidunt ac, egestas et mauris.</p>
+        </section>
+      </div>
+    </main>
+
+    <script>
+      // window.onload é executado quando todos os arquivos da pagina ja foram carregados
+      window.onload = function () {
+        let buttons = document.querySelectorAll('nav button'); // Retorna todos os elementos que podem ser classificados pelo seletor
+        for (let button of buttons) {
+          button.addEventListener('click', changeTab); // Adiciona um evento de click aos botoes, onde se for clicado executa a funcao changeTab
+        }
+        openTab(0);
+      }
+
+      // Seleciona a tab correta e chama openTab
+      function changeTab(e) {
+        const botaoAcionado = e.target; // Recupera o elemento clicado pela propriedade target do event
+        const liDoBotao = botaoAcionado.parentNode; // Retorna o pai do elemento da variavel botaoAcionado
+        const nodes = Array.from(liDoBotao.parentNode.children); // Retorna um array dos filhos do pai do elemento da variavel liDoBotao, em outra palavras retorna o elemento mais seus irmaos
+        const index = nodes.indexOf(liDoBotao);
+        openTab(index);
+      }
+
+      /* Remove as classes ativas dos buttons e das tabs e ativa a tab correta */
+      function openTab(idx) {
+        const tabActive = document.querySelector('.tabActive'); // Retorna o primeiro elemento com a classe tabActive
+        if (tabActive != null) tabActive.className = ''; // Se tiver tab com a classe tabActive, remove
+
+        const buttonActive = document.querySelector('.buttonActive'); // Retorna o primeiro elemento com a classe buttonActive
+        if (buttonActive != null) buttonActive.className = ''; // Se tiver button com a classe buttonActive, remove
+
+        document.querySelectorAll('.tabs section')[idx].className = 'tabActive'; // Pega todos os sections dentro do elemento com a classe tabs e adiciona a tab correta a classe tabActive
+        document.querySelectorAll('nav button')[idx].className = 'buttonActive'; // Pega todos os buttons dentro do elemento nav e adiciona ao button correto a classe buttonActive
+      }
+
+    </script>
+  </body>
+</html>

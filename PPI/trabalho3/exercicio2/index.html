@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Trabalho 3 - Exercicio 2</title>
+
+    <style>
+      body {
+        background-color: white;
+      }
+
+      main {
+        background-color: #e4dede;
+        width: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 15px 30px;
+        text-align: center;
+      }
+
+      li {
+        text-align: left;
+        padding: 8px 10px;
+        margin-bottom: 5px;
+        background-color: rgb(171 205 234);
+        border-radius: 4px;
+      }
+
+      li > button {
+        float: right;
+        color: red;
+        border: none;
+        background-color: rgb(171 205 234);
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <div>
+        <label for="interesse">Interesse:</label>
+        <input type="text" id="interesse" name="interesse">
+      </div>
+
+      <ol>
+      </ol>
+    </main>
+
+    <script>
+    // window.onload é executado quando todos os arquivos da pagina ja foram carregados
+      window.onload = function () {
+        const campoInteresse = document.querySelector('#interesse'); // Retorna o elemento com o id interesse
+
+        /* Cria um listener para o input da variavel campoInteresse, onde toda vez que digitarem algum caractere,
+        a funcao sera executada, e se o caracter for enter a funcao adicionaInteresse é chamada */
+        campoInteresse.addEventListener('keyup', e => {
+          if (e.key === 'Enter') adicionaInteresse();
+        });
+      }
+
+      function adicionaInteresse() {
+        const campoInteresse = document.querySelector('#interesse'); // Retorna o elemento com o id interesse
+        const listaInteresses = document.querySelector('ol'); // Retorna o primeiro elemento ol
+
+        if (!campoInteresse.value) return;
+
+        const novoLi = document.createElement('li'); // Cria um elemento do tipo li
+        const novoSpan = document.createElement('span'); // Cria um elemento do tipo span
+        const novoBotao = document.createElement('button'); // Cria um elemento do tipo button
+
+        novoSpan.textContent = campoInteresse.value; // Altera o conteudo do span pelo valor do input
+        novoBotao.textContent = '✖'; // Altera o conteudo do button pelo '✖'
+
+        novoLi.appendChild(novoSpan); // Adiciona na ultima posicao o elemento da variavel novoSpan dentro do elemento do novoLi
+        novoLi.appendChild(novoBotao); // Adiciona na ultima posicao o elemento da variavel novoBotao dentro do elemento do novoLi
+        listaInteresses.appendChild(novoLi); // Adiciona na ultima posicao o elemento da variavel novoLI dentro do elemento da listaInteresses
+
+        /* Cria um listener para o elemento da variavel novoBotao, onde ao ser clicado, a funcao anonima é executada */
+        novoBotao.onclick = () => {
+          listaInteresses.removeChild(novoLi); // Remove o nó filho passado (novoLi) do pai (listaInteresses), ou seja remove o interesse da lista
+        };
+
+        campoInteresse.value = ''; // Seta uma string vazia para o valor do input
+      }
+    </script>
+  </body>
+</html>

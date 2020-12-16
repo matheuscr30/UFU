@@ -1,0 +1,75 @@
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.parallax-img-1 {
+  background-image: url("../images/clinica6.jpg");
+  height: 300px;
+}
+
+.parallax-img-2 {
+  background-image: url("../images/clinica7.jpg");
+  height: 300px;
+}
+
+.parallax-img-3 {
+  background-image: url("../images/clinica5.jpg");
+  height: 300px;
+}
+
+.parallax-container {
+    position: relative;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.parallax-container .label {
+    background-color: #873787;
+    border-radius: 20px;
+    color: #fff;
+    padding: 18px;
+    font-size: 1.6rem;
+    letter-spacing: 10px;
+}
+
+.section {
+  background-color: white;
+  color: #6C757D;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+.last {
+  padding-bottom: 0px;
+}
+
+@media only screen and (max-width: 575px) {
+  .section {
+    padding: 50px 30px;
+  }
+
+  .parallax-container .label {
+      letter-spacing: 1px;
+  }
+}
+
+.valores {
+  list-style-type: none;
+  text-align: left;
+  padding-left: 0;
+}
+
+.valores li::before {
+  content: '➻';
+  color: #873787;
+  position: relative;
+  margin-right: 15px;
+  left: 0;
+}

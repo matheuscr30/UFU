@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Trabalho 3 - Exercicio 4</title>
+
+    <style>
+      body {
+        background-image: url("images/background.jpg");
+        background-size: cover;
+        margin: 0;
+      }
+
+      main {
+        width: 50%;
+        background-color: white;
+        border: 1px #ccc solid;
+        border-radius: 10px;
+        position: absolute;
+        padding: 15px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      h3 {
+        margin: 0 0 10px 0;
+      }
+
+      .container-input {
+        margin-bottom: 15px;
+      }
+
+      input {
+        display: block;
+        width: 90%;
+        padding: 4px 5px;
+        margin-top: 5px;
+        border: 1px #ccc solid;
+        border-radius: 5px;
+      }
+
+      input:focus {
+        border: 1px green solid;
+        box-shadow: 0px 0px 5px rgb(141, 173, 141);
+        outline: none;
+      }
+
+      input + span {
+        display: inline-block;
+        margin-top: 5px;
+        color: red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <h3>Cadastro de Usuário</h3>
+
+      <form name="formCadastro" action="index.html" method="post">
+        <div class="container-input">
+          <label for="usuario">Usuário:</label>
+          <input type="text" id="usuario" name="usuario" autocomplete="off">
+          <span></span>
+        </div>
+
+        <div class="container-input">
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" name="senha">
+          <span></span>
+        </div>
+
+        <div class="container-input">
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" autocomplete="off">
+          <span></span>
+        </div>
+
+        <button>Cadastrar</button>
+      </form>
+    </main>
+
+    <script>
+    // window.onload é executado quando todos os arquivos da pagina ja foram carregados
+      window.onload = function() {
+        document.forms.formCadastro.onsubmit = validaForm; // Acessa o form pelo nome formCadastro e muda sua funcao onsubmit para a validaForm
+      }
+
+      /* Valida o form e mostra os erros se preciso */
+      function validaForm(e) {
+        let form = e.target; // Pega o form que esta sendo processado
+        let formValido = true;
+
+        const spanUsuario = form.usuario.nextElementSibling; // Retorna o span irmao do input com nome usuario
+        const spanSenha = form.senha.nextElementSibling; // Retorna o span irmao do input com nome senha
+        const spanEmail = form.email.nextElementSibling; // Retorna o span irmao do input com nome email
+
+        spanUsuario.textContent = ''; // Seta um texto vazio para o span do input com nome usuario
+        spanSenha.textContent = ''; // Seta um texto vazio para o span do input com nome senha
+        spanEmail.textContent = ''; // Seta um texto vazio para o span do input com nome email
+
+        /* Se o valor do input usuario é vazio, entao mostra a mensagem de erro */
+        if (form.usuario.value === '') {
+          spanUsuario.textContent = 'O usuário deve ser preenchido'; // Altera o conteudo do span pela mensagem de erro
+          formValido = false;
+        }
+
+        /* Se o valor do input senha é vazio, entao mostra a mensagem de erro */
+        if (form.senha.value === '') {
+          spanSenha.textContent = 'A senha deve ser preenchida'; // Altera o conteudo do span pela mensagem de erro
+          formValido = false;
+        }
+
+        /* Se o valor do input email é vazio, entao mostra a mensagem de erro */
+        if (form.email.value === '') {
+          spanEmail.textContent = 'O email deve ser preenchido'; // Altera o conteudo do span pela mensagem de erro
+          formValido = false;
+        }
+
+        return formValido;
+      }
+    </script>
+  </body>
+</html>
