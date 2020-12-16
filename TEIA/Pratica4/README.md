@@ -2,7 +2,11 @@
 
 For running this code, there are 2 arguments to be passed:
 * --path or -p : Pass the path of the input file
+<<<<<<< HEAD
 * --hasheaders or -hh (default: 0) : Pass 0/1 if the input file has headers or not
+=======
+* --hasheaders or -hh (optional) : Pass 0/1 if the input file has headers or not
+>>>>>>> a6de31f2c5abfe30fe61b0bb10e0672b018be552
 * --distance or -d: Pass 1 for manhattan distance and 2 for euclidean distance
 
 ## Examples
